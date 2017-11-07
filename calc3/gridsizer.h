@@ -16,11 +16,16 @@ public:
   void onBt2 (wxCommandEvent&);
   void onBtSum (wxCommandEvent&);
   void onBt3 (wxCommandEvent&);
+  void onBt4 (wxCommandEvent&);
+  void onBt5 (wxCommandEvent&);
+  void onBt6 (wxCommandEvent&);
+  void onBt7 (wxCommandEvent&);
+  void onBt8 (wxCommandEvent&);
+  void onBt9 (wxCommandEvent&);
 
 private:
   int valor1;
   int valor2;
-  int valor3;
   string operacion;
   int nClicks;
 
